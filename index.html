@@ -3,17 +3,28 @@
 <html>
     <head>
         <title>Google</title>
+        <link rel="Stylesheet" href="style.css" type="text/css">
     </head>
     <body>
-           <div id="main_logo">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            </div>
-            <div id="search_box">
-                <form name="search" method="GET">
-                    <input name="search" type="text">
-                    <input type="submit" value="Search">
-                    <input type="submit" value="I'm Feeling Lucky">
-                </form>
+        <nav>
+            <ul class="nav">
+                <li class="left"><a style="none" href="http://about.google.com">About</a></li>
+                <li class="left">Store</li>
+                <li class="right">Gmail</li>
+                <li class="right">Images</li>
+            </ul>
+        </nav>
+           <div class="main">
+                <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            
+                <div class="search">
+                    <form name="search" method="GET">
+                        <input id="box" name="search" type="text">
+                    </br>                  
+                        <input id="search" type="submit" value="Search">
+                        <input id="random" type="submit" value="I'm Feeling Lucky">
+                    </form>
+                </div>
             </div>    
     </body>
 </html>
