@@ -9,9 +9,9 @@
         <nav>
             <ul class="nav">
                 <li class="left"><a style="none" href="http://about.google.com">About</a></li>
-                <li class="left">Store</li>
-                <li class="right">Gmail</li>
-                <li class="right">Images</li>
+                <li class="left"><a style="none" href="http://store.google.com">Store</a></li>
+                <li class="right"><a style="none" href="http://mail.google.com">Gmail</a></li>
+                <li class="right"><a style="none" href="http://images.google.com">Images</a></li>
             </ul>
         </nav>
            <div class="main">
@@ -19,10 +19,18 @@
             
                 <div class="search">
                     <form name="search" method="GET">
-                        <input id="box" name="search" type="text">
-                    </br>                  
-                        <input id="search" type="submit" value="Search">
+                        <div class="outerbox">
+                            <ul>
+                                <li><img src="./mic.jpg"></li>
+                                <li><input id="box" name="search" type="text"></li>
+                                <li><img id="ssymbol" src="./search.png"</li>
+                            </ul>
+                        </div>
+                    </br>
+                    <span class="buttons">            
+                        <input id="search" type="submit" value="Google Search">
                         <input id="random" type="submit" value="I'm Feeling Lucky">
+                    </span>   
                     </form>
                 </div>
             </div>    
